@@ -5,7 +5,7 @@ autoinstall:
         realname: 'cnxadmin'
         hostname: cnx-estoque
         username: cnxadmin
-        password: '4cff81cda276ba2ed8f56eaa2ea9d3926ebd3e23cd79a1a1f2061893d2e9fad16570a9cd4d7f93d04bdcb250b7d09be68fbfabc4a6b92515743ad174337c660f'
+        password: '$6$OnzoJhhomoCJ.P3u$/o5jpe1KpFx0SJEtLtEfn.1v/waUaad1R5DjEcvDGFaSTgrLpwB9LTGjKsDFC3OF1ckHpRT8cELKpS6A7gcFV0'
     locale: pt_BR.utf8
     keyboard:
         layout: br
