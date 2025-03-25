@@ -1,0 +1,31 @@
+#cloud-config
+autoinstall:
+    version: 1
+    identity:
+        realname: 'cnxadmin'
+        hostname: cnx-estoque
+        username: cnxadmin
+        password: '4cff81cda276ba2ed8f56eaa2ea9d3926ebd3e23cd79a1a1f2061893d2e9fad16570a9cd4d7f93d04bdcb250b7d09be68fbfabc4a6b92515743ad174337c660f'
+    locale: pt_BR.utf8
+    keyboard:
+        layout: br
+    timezone: "America/Sao_Paulo"
+    storage:
+    layout:
+      name: lvm
+      sizing-policy: all
+    packages:
+        - libreoffice
+        - gimp
+        - vlc
+        - ufw
+    snaps:
+        - name: spotify
+          channel: stable
+          classic: false
+    codecs:
+        install: true
+    drivers:
+        install: true
+    updates: all
+    shutdown: reboot
